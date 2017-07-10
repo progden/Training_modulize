@@ -16,4 +16,5 @@ npm run ex002
 
 npm run ex003
 
+npm run ex003_2
 ```
