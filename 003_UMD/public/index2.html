@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <script type="text/javascript" src="asset/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="asset/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="js/umd_front.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var msg = "Hello Wrold!";
+            var keyword = "old";
+            console.log({
+                msg: msg,
+                keyword: keyword,
+                rs: umd.highlight(msg, keyword)
+            });
+        })
+    </script>
+</head>
+<body>
+    這個範例透過 &lt;script&gt; 標籤引用函式庫 <br/>
+    去看看 AMD 的<a href="index.html">引用範例</a><br/>
+    去看看後端(NodeJS)的<a href="/testHighLight">引用範例</a>
+</body>
+</html>

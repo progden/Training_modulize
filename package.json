@@ -1,0 +1,20 @@
+{
+  "name": "modulize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chia-Rong Chang <ccdrumer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "update": "yarn",
+    "ex001": "node 001_CommonJS/main.js",
+    "ex002": "node 002_AMD/main.js",
+    "ex003": "node 003_UMD/main.js",
+    "ex003_2": "node ."
+  },
+  "dependencies": {
+    "amdefine": "^1.0.1",
+    "jquery": "1.11",
+    "underscore": "^1.8.3",
+    "express": "^4.15.3"
+  }
+}
