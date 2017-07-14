@@ -11,7 +11,7 @@ require.config({
     paths: {
         jquery: './asset/jquery/dist/jquery',
         underscore: './asset/underscore/underscore',
-        umd:"./js/umd_front"
+        umd: "./js/umd_front"
     }
 });
 
